@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Collection - The Tech Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F9F9F9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #0052CC, #FF6600);
+            color: white;
+            padding: 1.5em;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .product-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .product-item:hover {
+            transform: scale(1.05);
+        }
+        .product-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product-item h3 {
+            font-size: 1.4rem;
+            margin: 10px 0;
+            color: #0052CC;
+        }
+        .product-item p {
+            font-size: 1rem;
+            color: #666;
+        }
+        .price {
+            font-size: 1.2rem;
+            color: #FF6600;
+            font-weight: bold;
+        }
+        .buy-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #FF6600;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .buy-btn:hover {
+            background: #CC5200;
+        }
+    </style>
+</head>
+<body>
+    <header>The Tech Store - Laptop Collection</header>
+    <section class="container">
+        <h2>Explore Our Latest Laptops</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="gaming.png" alt="Gaming Laptop">
+                <h3>Gaming Laptop X1</h3>
+                <p>Powerful gaming laptop with RTX graphics and high refresh rate display.</p>
+                <p class="price">$2,500.00</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+            <div class="product-item">
+                <img src="Len.png" alt="Ultrabook">
+                <h3>Latest Lenovo</h3>
+                <p>Reliable performance at an affordable price, perfect for students.</p>
+                <p class="price">$600.00</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+            <div class="product-item">
+                <img src="Hp.png" alt="HP Laptop">
+                <h3>Latest Hp Laptop</h3>
+                <p>Reliable performance at an affordable price, perfect for students.</p>
+                <p class="price">$599.99</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+                <div class="product-item">
+                <img src="Macbook.png" alt="Budget Laptop">
+                <h3>Latest Macbook</h3>
+                <p>Ultra-slim, lightweight laptop for professionals on the go.</p>
+                <p class="price">$1099.99</p>
+                <a href="#" class="buy-btn">Buy Now</a>
+            </div>
+
+        </div>
+    </section>
+
+<footer>
+        <p>&copy; 2025 The Tech Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
